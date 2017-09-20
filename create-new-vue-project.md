@@ -20,3 +20,44 @@ $ cd my-project
 $ npm install
 $ npm run dev
 ```
+
+## Installing a simple Vue project
+
+### Save Webpack package to packages.json
+
+```
+npm install webpack -s
+```
+
+### Install Webpack Command Tools Globally
+
+```
+npm install webpack -g
+# Install into webpack commands into command line path
+```
+
+### Install Webpack and Vue Command Tools Globally
+
+```
+npm vue-cli -g
+```
+
+### Create a simple Vue and Webpack project
+
+Once you've installed Webpack and Vue Command Tools Globally you can run the following command to scaffold a simple project with Webpack and Vue incorporated:
+
+```
+vue init webpack-simple
+```
+
+Once the scaffold has been made, run *npm install* to download all the packages into *node_modules* folder:
+
+```
+npm install
+```
+
+To then host the project on a local server in dev mode run:
+
+```
+npm run dev
+```
